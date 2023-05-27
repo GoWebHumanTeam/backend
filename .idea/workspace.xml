@@ -5,13 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fd89fa3a-76c6-44ef-a448-a3c01b92d802" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/8fefd6d6-3433-496d-ba4d-2f62bcebb52d.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/8fefd6d6-3433-496d-ba4d-2f62bcebb52d.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gateway-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/gateway-service/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/member/src/main/java/gcu/backend/member/controller/MemberController.java" beforeDir="false" afterPath="$PROJECT_DIR$/member/src/main/java/gcu/backend/member/controller/MemberController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/member/src/main/java/gcu/backend/member/domain/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/member/src/main/java/gcu/backend/member/domain/Member.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/member/src/main/java/gcu/backend/member/repository/MemberRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/member/src/main/java/gcu/backend/member/repository/MemberRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/member/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/member/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/reservation/src/main/java/gcu/backend/reservation/controller/ReservationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/reservation/src/main/java/gcu/backend/reservation/controller/ReservationController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/reservation/src/main/java/gcu/backend/reservation/domain/Reservation.java" beforeDir="false" afterPath="$PROJECT_DIR$/reservation/src/main/java/gcu/backend/reservation/domain/Reservation.java" afterDir="false" />
@@ -60,7 +58,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "18",
-    "last_opened_file_path": "C:/workspace/advancedWP/human_backend",
+    "last_opened_file_path": "C:/Users/LG/Desktop/고급웹프/w9/src/member",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -120,7 +118,7 @@
       <option name="presentableId" value="Default" />
       <updated>1684827381929</updated>
       <workItem from="1684827383191" duration="1298000" />
-      <workItem from="1685164243069" duration="9291000" />
+      <workItem from="1685164243069" duration="35074000" />
     </task>
     <servers />
   </component>
@@ -134,6 +132,20 @@
           <url>file://$PROJECT_DIR$/member/src/main/java/gcu/backend/member/MemberApplication.java</url>
           <line>9</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/gateway-service/src/main/java/gcu/backend/gatewayservice/GatewayServiceApplication.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/member/src/main/java/gcu/backend/member/MemberApplication.java</url>
+          <line>8</line>
+          <properties class="gcu.backend.member.MemberApplication" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

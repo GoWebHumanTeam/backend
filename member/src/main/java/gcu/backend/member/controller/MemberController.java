@@ -5,8 +5,8 @@ import gcu.backend.member.repository.MemberRepository;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.Optional;
-@CrossOrigin("http://localhost:3000")
 @RestController
+@CrossOrigin(origins = "http://localhost:8000")
 public class MemberController {
     private final MemberRepository memberRepository;
 
@@ -25,6 +25,7 @@ public class MemberController {
                 member.getStudentid()
         );
         System.out.println(existingMember);
+
         if (existingMember != null) {
             return existingMember.getId();
         } else {

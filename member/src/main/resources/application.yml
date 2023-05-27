@@ -1,5 +1,6 @@
 server:
   port: 8081
+
 spring:
   application:
     name: member
@@ -9,6 +10,7 @@ spring:
     username: root
     password: yeoningi1004!
     driver-class-name: com.mysql.cj.jdbc.Driver
+
   jpa:
     hibernate:
       ddl-auto: create
@@ -18,3 +20,13 @@ spring:
       base-path: /api
       default-page-size: 10
       max-page-size: 10
+
+eureka:
+  instance:
+    preferIpAddress: true      # When communicating between services, IP is used first
+    lease-renewal-interval-in-seconds: 30   # Send heartbeat every 30 seconds
+  client:
+    register-with-eureka: true       # Specify that your services register with Eureka
+    fetchRegistry: true              # Specify that the client should cache the server's list of registered instances
+    serviceUrl:
+      defaultZone: http://127.0.0.1:8761/eureka/  # Configuring eureka server clustering in the same zone
