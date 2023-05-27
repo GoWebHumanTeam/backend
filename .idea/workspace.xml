@@ -5,15 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fd89fa3a-76c6-44ef-a448-a3c01b92d802" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/8fefd6d6-3433-496d-ba4d-2f62bcebb52d.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/8fefd6d6-3433-496d-ba4d-2f62bcebb52d.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gateway-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gateway-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gateway-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/gateway-service/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/member/src/main/java/gcu/backend/member/controller/MemberController.java" beforeDir="false" afterPath="$PROJECT_DIR$/member/src/main/java/gcu/backend/member/controller/MemberController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/member/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/member/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/reservation/src/main/java/gcu/backend/reservation/controller/ReservationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/reservation/src/main/java/gcu/backend/reservation/controller/ReservationController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reservation/src/main/java/gcu/backend/reservation/domain/Reservation.java" beforeDir="false" afterPath="$PROJECT_DIR$/reservation/src/main/java/gcu/backend/reservation/domain/Reservation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reservation/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/reservation/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +72,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.MemberApplication">
+  <component name="RunManager" selected="Spring Boot.ReservationApplication">
     <configuration name="EurekaServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="eureka-server" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="gcu.backend.eurekaserver.EurekaServerApplication" />
@@ -118,7 +111,7 @@
       <option name="presentableId" value="Default" />
       <updated>1684827381929</updated>
       <workItem from="1684827383191" duration="1298000" />
-      <workItem from="1685164243069" duration="35074000" />
+      <workItem from="1685164243069" duration="36129000" />
     </task>
     <servers />
   </component>
