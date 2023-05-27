@@ -15,23 +15,23 @@ public class ReservationController {
     }
 
     // POST, reservation
-    @PostMapping("/api/reservation/{member_id}")
+    @PostMapping("/api/reservation")
     public String create(@RequestBody Reservation reservation) {
         reservationRepository.save(reservation);
         return "reservation ok";
     }
 
     // DELETE, reservation
-    @DeleteMapping("/api/reservation/{member_id")
-    public String delete(@PathVariable Long member_id) {
-        reservationRepository.deleteById(member_id);
+    @DeleteMapping("/api/reservation")
+    public String delete() {
+        reservationRepository.deleteById(1L);
         return "delete ok";
     }
 
     // GET, reservation
-    @GetMapping("/api/reservation/{member_id}")
-    public Optional<Reservation> getReservation(@PathVariable("member_id") Long id) {
-        return reservationRepository.findById(id);
+    @GetMapping("/api/reservation")
+    public Optional<Reservation> getReservation() {
+        return reservationRepository.findById(1L);
     }
 
 

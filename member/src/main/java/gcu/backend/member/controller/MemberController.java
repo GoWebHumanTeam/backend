@@ -21,10 +21,10 @@ public class MemberController {
 
     @RequestMapping(value = "/api/login", method = RequestMethod.POST)
     public Long checkMemberExists(@RequestBody Member member) {
-        Member existingMember = memberRepository.findByNameAndStudentId(
-                member.getName(),
-                member.getStudentId()
+        Member existingMember = memberRepository.findByStudentid(
+                member.getStudentid()
         );
+        System.out.println(existingMember);
         if (existingMember != null) {
             return existingMember.getId();
         } else {

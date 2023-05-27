@@ -13,34 +13,36 @@ public class Reservation {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long id;
-    @Column(name = "member_id", nullable = false)
-    private long member_id;
-    @Column(name = "starting_point", nullable = false)
-    private String starting_point;
+    @Column(name = "senderName", nullable = false)
+    private String senderName;
+    @Column(name = "senderTel", nullable = false)
+    private String senderTel;
+    @Column(name = "addressName", nullable = false)
+    private String addressName;
+    @Column(name = "addressTel", nullable = false)
+    private String addressTel;
+    @Column(name = "startingPoint", nullable = false)
+    private String startingPoint;
     @Column(name = "destination", nullable = false)
     private String destination;
-    @Column(name = "receiver_name", nullable = false)
-    private String receiver_name;
-    @Column(name = "receiver_tel", nullable = false)
-    private String receiver_tel;
-
+    @Column(name = "postDescription")
+    private String postDescription;
     @Column(name = "weight", nullable = false)
     private float weight;
-    @Column(name = "post_description")
-    private String post_description;
     @Column(name = "quantity", nullable = false)
     private float quantity;
 
     @Builder
-    public Reservation(Long member_id, String starting_point, String destination, String receiver_name,
-                       String receiver_tel, float weight, String post_description, float quantity) {
-        this.member_id = member_id;
-        this.starting_point = starting_point;
+    public Reservation(String senderName, String senderTel, String addressName, String addressTel,
+                       String startingPoint, String destination, String postDescription,float weight, float quantity) {
+        this.senderName = senderName;
+        this.senderTel = senderTel;
+        this.addressName = addressName;
+        this.addressTel = addressTel;
+        this.startingPoint = startingPoint;
         this.destination = destination;
-        this.receiver_name = receiver_name;
-        this.receiver_tel = receiver_tel;
+        this.postDescription = postDescription;
         this.weight = weight;
-        this.post_description = post_description;
         this.quantity = quantity;
     }
 }
