@@ -6,7 +6,7 @@ spring:
     name: member
 
   datasource:
-    url: jdbc:mysql://127.0.0.1:3306/drone-service?createDatabaseIfNotExist=true&useUnicode=true&characterEncoding=UTF-8&characterSetResults=UTF-8&allowPublicKeyRetrieval=true&useSSL=false
+    url: jdbc:mysql://3.38.45.239:3306/drone-service?createDatabaseIfNotExist=true&useUnicode=true&characterEncoding=UTF-8&characterSetResults=UTF-8&allowPublicKeyRetrieval=true&useSSL=false
     username: root
     password: yeoningi1004!
     driver-class-name: com.mysql.cj.jdbc.Driver
@@ -29,4 +29,4 @@ eureka:
     register-with-eureka: true       # Specify that your services register with Eureka
     fetchRegistry: true              # Specify that the client should cache the server's list of registered instances
     serviceUrl:
-      defaultZone: http://127.0.0.1:8761/eureka/  # Configuring eureka server clustering in the same zone
+      defaultZone: http://3.38.45.239:8761/eureka/  # Configuring eureka server clustering in the same zone
